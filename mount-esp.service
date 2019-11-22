@@ -1,0 +1,6 @@
+[Unit]
+Description=Mount EFI System Partition to /boot
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mount /dev/sda1 /boot
