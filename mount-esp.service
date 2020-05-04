@@ -1,3 +1,5 @@
+# If all else fails with /etc/fstab
+
 [Unit]
 Description=Mount EFI System Partition to /boot
 
